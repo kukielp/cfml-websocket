@@ -1,0 +1,10 @@
+version: '3'
+services:
+  lucee:
+    image: ortussolutions/commandbox
+    environment:
+      - cfconfig_adminPassword=Password123!
+    volumes:
+      - ./www:/app
+    ports: 
+      - "80:8080"
