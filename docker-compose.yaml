@@ -7,7 +7,7 @@ services:
     #  - cfconfig_adminPassword=Password12!
       - LUCEE_EXTENSIONS=3F9DFF32-B555-449D-B0EB5DB723044045
     command: >
-      /var/www/start.sh 
+      /tmp/start.sh 
     volumes:
       - ./www:/var/www
       - ./config:/tmp
