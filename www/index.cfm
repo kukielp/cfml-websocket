@@ -1,4 +1,4 @@
-<!-- index.cfm !-->
+Here<!-- index.cfm !-->
 <h1>WebSocket Broadcast Example</h1>
 
 <cfscript>
